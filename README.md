@@ -88,6 +88,13 @@ From client, ping "apple" once again. Since it is not found in the cache, it is 
 <img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/1e33e32f-af9e-4073-a596-6d6b3f3ab6b3" height="80%" width="80%" alt="apple7"/>
 </p>
 <p>
-From domain, create a new CNAME called search. It will simply resolve back to "apple", "apple.domain.com"
+From domain, create a new CNAME called search. It will simply resolve back to "apple", "apple.domain.com".
+</p>
+
+<p>
+<img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/039b432c-3bcc-4b31-8bdd-1cf4d57519a2" height="80%" width="80%" alt="search"/>
+</p>
+<p>
+From client, ping "search". It is now mapped to apple.domain.com, which has an ip of 8.8.8.8
 </p>
 

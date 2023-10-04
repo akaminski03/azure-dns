@@ -77,3 +77,10 @@ From client, ping "apple" and notice that despite changing the A record. Since t
 From client, flush the DNS, now there is no record of "apple."
 </p>
 
+<p>
+<img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/a74fe964-ecbe-4569-bf79-43e0caeaa696" height="80%" width="80%" alt="apple6"/>
+</p>
+<p>
+From client ping "apple" once again. Since it is not found in the cache, it is forced to retrieve it from the DNS server, which now displays the updated ip address.
+</p>
+

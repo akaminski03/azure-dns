@@ -45,6 +45,21 @@ From domain controller, create a new A Record / Host named "apple."
 <img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/ff6c30fd-daa1-4c2c-8150-4f48a3fdf550" height="80%" width="80%" alt="apple2"/>
 </p>
 <p>
-From client, Successfully ping and nslookup "apple."
+From client, Successfully ping and nslookup "apple." This simply resolves "apple" to the local ip address of the domain controller. It is retrieving this information from the DNS server.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/6b98f930-6ccc-423a-bde7-82fc1fe831aa" height="80%" width="80%" alt="apple3"/>
+</p>
+<p>
+The local cache now has a record, which is much faster than pinging the dns server.
+</p>
+
+<p>
+<img src="https://github.com/akaminski03/azure-network-protocols/assets/65532146/5670c2c9-8d41-4a9c-8198-ea4db6edfa28" height="80%" width="80%" alt="apple4"/>
+</p>
+<p>
+From domain controller, change the a record of "apple" to use the ip address "8.8.8.8" 
+  
+</p>

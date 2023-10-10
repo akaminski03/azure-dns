@@ -1,5 +1,4 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
 <h1>Observing the Domain Name System between Azure Virtual Machines</h1>
